@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharashtrian Vastra | Traditional Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">महाराष्ट्रीयन <span>Vastra</span></a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="cart-icon">
+            🛍️ Cart <span id="cartCount">0</span>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="subtitle">THE BEAUTY OF MAHARASHTRIAN CULTURE</p>
+        <h1>Tradition Never Goes Out of Style</h1>
+        <p>
+            Discover the royal elegance of Paithani sarees,
+            traditional Nauvari, ethnic outfits and beautiful accessories.
+        </p>
+        <a href="#women" class="btn">Explore Collection →</a>
+    </div>
+</section>
+
+<!-- OFFER STRIP -->
+<div class="offer-strip">
+    ✨ Celebrate Tradition • Wear Elegance • Embrace Your Culture ✨
+</div>
+
+<!-- WOMEN COLLECTION -->
+<section class="collection" id="women">
+    <div class="section-heading">
+        <p>GRACE AND ELEGANCE</p>
+        <h2>Women's Collection</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="saree">Sarees</button>
+        <button class="filter-btn" data-filter="dress">Traditional Dresses</button>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card" data-category="saree">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=85" alt="Traditional Paithani Saree">
+                <span class="tag">Bestseller</span>
+            </div>
+            <div class="product-info">
+                <h3>Royal Paithani Saree</h3>
+                <p class="description">Traditional silk with elegant zari work</p>
+                <p class="price">₹4,999</p>
+                <button class="add-btn" data-name="Royal Paithani Saree" data-price="4999">
+                    Add to Cart
+                </button>
+                <button class="view-btn" data-name="Royal Paithani Saree" data-price="4999" data-description="Beautiful traditional silk Paithani saree with elegant zari work, perfect for festive occasions.">
+                    View Details
+                </button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="saree">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=700&q=85" alt="Nauvari Saree">
+            </div>
+            <div class="product-info">
+                <h3>Traditional Nauvari</h3>
+                <p class="description">Classic Maharashtrian nine-yard saree</p>
+                <p class="price">₹3,499</p>
+                <button class="add-btn" data-name="Traditional Nauvari" data-price="3499">Add to Cart</button>
+                <button class="view-btn" data-name="Traditional Nauvari" data-price="3499" data-description="Traditional nine-yard Maharashtrian saree, inspired by the graceful cultural heritage of Maharashtra.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="dress">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=85" alt="Traditional ethnic outfit">
+            </div>
+            <div class="product-info">
+                <h3>Ethnic Festive Dress</h3>
+                <p class="description">Elegant traditional festive wear</p>
+                <p class="price">₹2,499</p>
+                <button class="add-btn" data-name="Ethnic Festive Dress" data-price="2499">Add to Cart</button>
+                <button class="view-btn" data-name="Ethnic Festive Dress" data-price="2499" data-description="Beautiful festive ethnic outfit with traditional styling.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="saree">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1610189012906-4c7f8a9b7b1a?auto=format&fit=crop&w=700&q=85" alt="Silk saree">
+            </div>
+            <div class="product-info">
+                <h3>Festive Silk Saree</h3>
+                <p class="description">Beautiful silk saree for special occasions</p>
+                <p class="price">₹3,999</p>
+                <button class="add-btn" data-name="Festive Silk Saree" data-price="3999">Add to Cart</button>
+                <button class="view-btn" data-name="Festive Silk Saree" data-price="3999" data-description="A beautiful traditional silk saree for celebrations and special occasions.">View Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- MEN COLLECTION -->
+<section class="collection alternate" id="men">
+    <div class="section-heading">
+        <p>ROYAL TRADITION</p>
+        <h2>Men's Collection</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=700&q=85" alt="Traditional kurta">
+            </div>
+            <div class="product-info">
+                <h3>Royal Kurta</h3>
+                <p class="description">Elegant traditional kurta outfit</p>
+                <p class="price">₹1,999</p>
+                <button class="add-btn" data-name="Royal Kurta" data-price="1999">Add to Cart</button>
+                <button class="view-btn" data-name="Royal Kurta" data-price="1999" data-description="Elegant traditional kurta for festivals and cultural celebrations.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=85" alt="Traditional men's wear">
+            </div>
+            <div class="product-info">
+                <h3>Traditional Outfit</h3>
+                <p class="description">Classic ethnic men's fashion</p>
+                <p class="price">₹2,299</p>
+                <button class="add-btn" data-name="Traditional Outfit" data-price="2299">Add to Cart</button>
+                <button class="view-btn" data-name="Traditional Outfit" data-price="2299" data-description="A classic traditional outfit inspired by Indian ethnic fashion.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=85" alt="Traditional kurta collection">
+            </div>
+            <div class="product-info">
+                <h3>Festive Kurta</h3>
+                <p class="description">Stylish kurta for festive occasions</p>
+                <p class="price">₹1,799</p>
+                <button class="add-btn" data-name="Festive Kurta" data-price="1799">Add to Cart</button>
+                <button class="view-btn" data-name="Festive Kurta" data-price="1799" data-description="Comfortable and stylish festive kurta for traditional celebrations.">View Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ACCESSORIES -->
+<section class="collection" id="accessories">
+    <div class="section-heading">
+        <p>COMPLETE YOUR LOOK</p>
+        <h2>Traditional Accessories</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=85" alt="Traditional jewellery">
+            </div>
+            <div class="product-info">
+                <h3>Traditional Jewellery</h3>
+                <p class="description">Elegant ethnic jewellery collection</p>
+                <p class="price">₹999</p>
+                <button class="add-btn" data-name="Traditional Jewellery" data-price="999">Add to Cart</button>
+                <button class="view-btn" data-name="Traditional Jewellery" data-price="999" data-description="Beautiful ethnic jewellery to complement traditional attire.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=85" alt="Ethnic jewellery">
+            </div>
+            <div class="product-info">
+                <h3>Gold Tone Accessories</h3>
+                <p class="description">Traditional-inspired accessories</p>
+                <p class="price">₹799</p>
+                <button class="add-btn" data-name="Gold Tone Accessories" data-price="799">Add to Cart</button>
+                <button class="view-btn" data-name="Gold Tone Accessories" data-price="799" data-description="Beautiful gold-tone accessories for a traditional look.">View Details</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=85" alt="Traditional footwear">
+            </div>
+            <div class="product-info">
+                <h3>Ethnic Footwear</h3>
+                <p class="description">Traditional-inspired footwear</p>
+                <p class="price">₹1,199</p>
+                <button class="add-btn" data-name="Ethnic Footwear" data-price="1199">Add to Cart</button>
+                <button class="view-btn" data-name="Ethnic Footwear" data-price="1199" data-description="Traditional-inspired footwear for everyday and festive styling.">View Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CART MODAL -->
+<div class="modal" id="cartModal">
+    <div class="modal-content">
+        <button class="close-modal" data-close="cartModal">&times;</button>
+        <h2>Your Shopping Cart 🛍️</h2>
+        <div id="cartItems"></div>
+        <h3 id="cartTotal">Total: ₹0</h3>
+        <button class="btn checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
+    </div>
+</div>
+
+<!-- PRODUCT MODAL -->
+<div class="modal" id="productModal">
+    <div class="modal-content">
+        <button class="close-modal" data-close="productModal">&times;</button>
+        <h2 id="modalProductName"></h2>
+        <p id="modalProductDescription"></p>
+        <h3 id="modalProductPrice"></h3>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="about-content">
+        <p>OUR STORY</p>
+        <h2>Celebrating Maharashtra's Rich Heritage</h2>
+        <p>
+            Maharashtrian Vastra is inspired by the beauty of traditional
+            Maharashtrian clothing. From the timeless Paithani saree
+            to the graceful Nauvari and classic men's ethnic wear,
+            we celebrate culture, craftsmanship and elegance.
+        </p>
+        <a href="#women" class="btn">Discover Our Collection</a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div class="section-heading">
+        <p>WE WOULD LOVE TO HEAR FROM YOU</p>
+        <h2>Contact Us</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <input type="tel" id="mobile" placeholder="Mobile Number">
+        <textarea id="message" placeholder="Write your message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h2>महाराष्ट्रीयन Vastra</h2>
+    <p>Celebrate Tradition, Wear Elegance.</p>
+    <p class="copyright">© 2026 Maharashtrian Vastra. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
